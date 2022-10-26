@@ -1,0 +1,112 @@
+#search-input{
+    width:470px;
+    border-bottom-left-radius:100px;
+    border-top-left-radius:100px;
+    
+    height:40px;
+    margin-left: 20px;
+    justify-content: center;
+    font-size:20px;
+    padding-left: 5%;
+    border:3px solid orange;
+}
+.search-icon{
+    background-color: orange;
+    height:46px;
+    border-bottom-right-radius:100px;
+    border-top-right-radius:100px;
+    border:7px solid orange;
+    width:50px;
+}
+.all-meals{
+    margin: 30px;
+}
+.products-heading{
+    font-size: 50px;
+    padding:15px 0;
+    font-weight: 700;
+}
+.products-search{
+    align-items: center;
+    text-align: center;
+    margin-left: 300px;
+}
+.get-recpie{
+    color:var(--bg-color);
+    background-color: orange;
+    cursor:pointer;
+    font-size: 24px;
+    font-family: gilroy-bold;
+    letter-spacing: 0.4px;
+    line-height: 30px;
+    padding:5px 35px;
+    font-weight: 700;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 50px;
+    text-decoration: none;
+}
+.get-recpie:hover{
+    background-color: rgb(249, 182, 81);
+}
+.meal-image img{
+    width: 100%;
+    height:300px;
+}
+.all-meals{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    grid-gap:40px;
+}
+.meal-details{
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(249, 194, 92);
+    margin: 8px 8px;
+    transition: 1s ease-in-out;
+}
+.meal-details:hover{
+    transform: translate(5%,-5%);
+    background-color: rgb(215, 206, 206);
+    color: black;
+}
+.meal-contents{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+@media all and (max-width:1279px)
+{
+    .products-search{
+        align-items: center;
+        text-align: center;
+        margin-left: 120px;
+    }
+}
+@media all and (max-width:767px)
+{
+    .get-recpie{
+        font-size: 28px;
+        padding:16px 108px;
+        margin-bottom: 30px;
+    }
+    .products-search{
+        align-items: center;
+        text-align: center;
+        margin-left: 50px;
+    }
+    #search-input{
+        width:200px;
+        height:40px;
+       
+    }
+    .get-recpie{
+        font-size: 24px;
+        padding:5px 15px;
+        font-weight: 700;
+        border-radius: 40px;
+        cursor: pointer;
+        width: 30px;
+        text-decoration: none;
+    }
+}

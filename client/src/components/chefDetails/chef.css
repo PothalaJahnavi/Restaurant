@@ -1,0 +1,19 @@
+h1{
+    color: red;
+    font-size: 40px;
+}
+.chef-details{
+ display: grid;
+ grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+}
+.chef-details .chef-image img{
+    height:500px;
+    width: 400px;
+}
+.chef-details .chef-info{
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    color:orange;
+    margin-right: 40px;
+}

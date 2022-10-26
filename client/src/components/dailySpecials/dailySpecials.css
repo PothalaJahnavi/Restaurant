@@ -1,0 +1,47 @@
+.daily-specials{
+    /* height:100vh; */
+    width:100%;
+    color: azure;
+    padding:0px 0;
+    overflow: hidden;
+    
+}
+.heading{
+    text-align: center;
+    color: white;
+}
+.special-content{
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  padding: 0 40px;
+}
+.special-images{
+  padding:110px;
+}
+.special-images img{ 
+    width:280px;
+    height:300px; 
+    border-radius: 30px;
+}
+@media all and (max-width:1279px)
+{
+  .special-images img{ 
+    width:280px;
+    height:250px; 
+    border-radius: 30px;
+}
+.special-images{
+  padding-left: 0;
+}
+}
+@media all and (max-width:767px)
+{
+  .special-images{
+    padding-left: 0;
+
+  }
+  .daily-specials{
+    padding:0 0;
+  }
+}
